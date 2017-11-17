@@ -1,0 +1,13 @@
+.backColor{
+  background-color: #f4f4f4;
+  padding: 2%;
+  border-radius: 6px;
+  margin-top: 4%;
+}
+
+.textFormat{
+  text-align: center;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+  margin: 2%;
+}

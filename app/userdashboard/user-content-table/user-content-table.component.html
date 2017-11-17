@@ -1,0 +1,8 @@
+<div class="col-xs-12" *ngFor="let comment of userProfilePosts" >
+  <div class="backColor">
+    <app-user-post [com]="comment"></app-user-post>
+  </div>
+  <div>
+    <app-comment *ngFor="let uComment of comment.userComments" [ucom]="uComment"></app-comment>
+  </div>
+</div>

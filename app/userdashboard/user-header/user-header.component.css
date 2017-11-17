@@ -1,0 +1,24 @@
+.backColor {
+  background-color: #C6A49A;
+  color: rgb(255, 255, 255);
+  padding: 2%;
+  border-radius: 6px;
+  margin-top: 2%;
+}
+
+.fontName {
+  font-size: 3vw;
+}
+
+.fontDtails {
+  font-size: 1.5vw;
+}
+
+.imgFormat {
+  height: 100%;
+  width: 100%;
+}
+
+.center {
+  margin-top: 5%;
+}

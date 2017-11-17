@@ -1,0 +1,25 @@
+.backColor{
+  background-color: #D68189;
+  padding: 2%;
+  border-radius: 6px;
+  margin: 2%;
+  color: rgb(255, 255, 255);
+}
+
+.postBottomStyle{
+  margin-top: 3%;
+ font-weight: bold;
+}
+
+.textRight{
+   text-align:right;
+}
+
+.iconSize{
+  font-size: 1.5vw;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.iconSize:hover{
+  color: rgb(25, 145, 0);
+}

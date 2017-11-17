@@ -1,0 +1,13 @@
+
+<div class="container">
+    <div class="col-xs-12">
+          <a routerLink="/">Home</a>
+    </div>
+    <app-user-header *ngFor="let selectedUser of userArr" [userData]="selectedUser"></app-user-header>
+    <div class="col-xs-8">
+      <app-user-content-table></app-user-content-table>
+    </div>
+    <div class="col-xs-4">
+      <app-user-friends></app-user-friends>
+    </div>
+</div>

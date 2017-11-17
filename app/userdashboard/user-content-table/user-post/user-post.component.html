@@ -1,0 +1,21 @@
+<div class="row backColor">
+  <div class="col-xs-12 ">
+    {{com.content}}
+  </div>
+  <div class="col-xs-12 postBottomStyle">
+    <div class="col-xs-4">
+      {{com.postDate}}
+    </div>
+    <div class="col-xs-8 textRight">
+      <div  class="col-xs-8 iconSize" (click)="showForm()">
+        Add comment
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="addCommentBoolean;else showCommentForm">
+</div>
+
+<ng-template #showCommentForm>
+<app-add-comment [postNr]="com.postId" (hideForm)="checkAddButtonState($event)"></app-add-comment>
+</ng-template>
